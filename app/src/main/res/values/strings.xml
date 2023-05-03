@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IPZ_Fuha</string>
+    <string name="logo">Weather</string>
+    <string name="hint_user_field">City</string>
+    <string name="main_button">Show</string>
+    <string name="no_user_input">Вкажіть назву міста</string>
+    <string name="loading">Очікуйте...</string>
+</resources>

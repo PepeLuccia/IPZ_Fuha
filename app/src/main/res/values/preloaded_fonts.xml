@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/anton</item>
+        <item>@font/archivo</item>
+        <item>@font/asap</item>
+        <item>@font/asap_medium</item>
+        <item>@font/bree_serif</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_medium</item>
+    </array>
+</resources>

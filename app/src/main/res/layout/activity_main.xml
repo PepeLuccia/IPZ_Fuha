@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3sp"
+        android:layout_marginHorizontal="15sp"
+        android:enabled="false"
+        android:fadeScrollbars="false"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/logo"
+        android:textColor="@color/text"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/teal_200"
+        android:ems="10"
+        android:fontFamily="@font/asap_medium"
+        android:hint="@string/hint_user_field"
+        android:inputType="text"
+        android:textColor="#BDBDBD"
+        android:textColorHint="@color/text_hint"
+        android:textSize="19sp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:background="@drawable/button_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_field"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4C4C4C"
+        android:fontFamily="@font/asap_medium"
+        android:text="@string/main_button"
+        android:textColor="@color/text_main_button"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/result_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_button"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#6C6C6C"
+        android:fontFamily="@font/asap_medium"
+        android:textColor="@color/white"
+        android:textSize="19sp" /> />
+</RelativeLayout>
