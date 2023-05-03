@@ -151,19 +151,4 @@ internal class MainActivity : ComponentActivity() {
                     }
                 }
 
-                //@Deprecated("Deprecated in Java")
-                //@SuppressLint("SetTextI18n")
-                //override fun onPostExecute(result: String) {
-                    //super.onPostExecute(result)
-                    //try {
-                    //    val jsonObject = JSONObject(result)
-                    //    result_weather!!.text =
-                    //        "Температура: " + jsonObject.getJSONObject("main").getDouble("temp")
-                    //} catch (e: JSONException) {
-                    //    throw RuntimeException(e)
-                    //}
-                    //result_weather?.setText(result);
-                //}
-
-
 
